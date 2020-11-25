@@ -5,6 +5,8 @@
   <%= link_to "Homepage", static_page_home_path, class: "btn btn-lg btn-primary" %>
   <%= link_to "Sign in", new_user_session_path, class: "btn btn-lg btn-primary" %>
   <%= link_to "user's info",edit_user_registration_path , class: "btn btn-lg btn-primary" %>
+  <%= link_to "Sign out", destroy_user_session_path, class: "btn btn-lg btn-primary" %>
+
 </div>
 <div>
     <%= link_to "all book", books_path, class: "btn btn-lg btn-primary" %>
